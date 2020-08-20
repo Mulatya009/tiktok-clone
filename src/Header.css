@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  background-color: #ffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.header__logo {
+  display: flex;
+  flex: 1;
+}
+
+.header__logoIcon {
+  margin-right: 5px;
+}
+
+.header__right {
+  display: flex;
+}
+
+.header__uploadBtn {
+  margin-right: 20px;
+}
+
+.header__modalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__modalContentBtn {
+  margin-top: 10px;
+  margin-left: 90%;
+  background-color: gainsboro;
+  color: gray;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.header__modalContentVideoInput {
+  margin-top: 15px;
+}
+
+.header__modalContentBtn:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: gray;
+  transition: ease-in 0.5s;
+}
